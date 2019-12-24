@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping wildcard="true">
+        <class-a>hashpp.bills.model.BillPayments</class-a>
+        <class-b>hashpp.bills.dto.BillPayments</class-b>
+        <field>
+            <a>payee.name</a>
+            <b>name</b>
+        </field>
+        <field>
+            <a>payee.type</a>
+            <b>type</b>
+        </field>
+        <field>
+            <a>payee.dueAmount</a>
+            <b>dueAmount</b>
+        </field>
+        <field>
+            <a>payee.totalBalance</a>
+            <b>totalBalance</b>
+        </field>
+        <field>
+            <a>payee.interest</a>
+            <b>interest</b>
+        </field>
+        <field>
+            <a>payee.promotionExpireDt</a>
+            <b>promotionExpireDt</b>
+        </field>
+        <field>
+            <a>payee.accountNum</a>
+            <b>accountNum</b>
+        </field>
+    </mapping>
+</mappings>

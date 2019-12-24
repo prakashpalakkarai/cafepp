@@ -1,0 +1,16 @@
+{
+	"pmtId":1,
+	"payeeId":null,
+	"pmtMethodId":null,
+	"billSchId":null,
+	"name":"Great Lakes",
+	"type":"financing",
+	"dueAmount":450.00,
+	"totalBalance":8000.00,
+	"interest":2.99,
+	"promotionExpireDt":"2019-09-30T00:00:00.000+0000",
+	"accountNum":923456789,
+	"pmtScheduleDt":"2019-12-12T00:00:00.000+0000",
+	"amount":120.00,
+	"pmtStatus":"Scheduled"
+}
